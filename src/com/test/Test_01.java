@@ -14,7 +14,7 @@ public class Test_01 {
 	public  static void show()
 	{
 		
-		System.out.println("Static method");
+		System.out.println("parent Static method");
 	}
 
 }

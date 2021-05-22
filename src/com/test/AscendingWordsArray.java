@@ -14,9 +14,10 @@ public class AscendingWordsArray {
 		List<String> l=Arrays.asList(countries);
 		
 		
-		Collections.sort(l);
+		Collections.sort(l,Collections.reverseOrder());
 		
 		System.out.println(l);
+		
 		
 		
 	}

@@ -1,5 +1,7 @@
 package com.test;
 
+import java.util.Arrays;
+
 public class WordsAscending {
 
 	public static void main(String[] args) {
@@ -15,6 +17,7 @@ public class WordsAscending {
 				if(countries[i].compareTo(countries[j])>0)
 				{
 					
+					
 					String temp=countries[i];
 					countries[i]=countries[j];
 					countries[j]=temp;
@@ -25,6 +28,7 @@ public class WordsAscending {
 			
 			
 		}
+		System.out.println(Arrays.toString(countries));
 
 	}
 

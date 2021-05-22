@@ -17,7 +17,7 @@ public class PrimeNumber {
 				{
 					count++;
 				}
-				
+			
 			}
 			if(count==1)
 			System.out.println(i);
